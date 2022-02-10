@@ -7,9 +7,21 @@ html, body, #root {
 }
 
 .main-container {
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418) ), url('https://hdwallpaper20.com/wp-content/uploads/2017/07/wallpaper-wp4001752.jpg');
+  background-image: url(./images/cold_weather.jpg);
+  background-size: cover;
+  transition: 0.8 ease-out;
+}
+
+.main-container-warm {
+  background-image: url(./images/hot_weather.jpg);
   background-size: cover;
   background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  transition: 0.8 ease-out;
 }
 
 .main-container {
